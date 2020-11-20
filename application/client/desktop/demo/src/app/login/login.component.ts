@@ -13,7 +13,8 @@ export class LoginComponent implements OnInit {
 
 users = {
    name: '',
-   email: ''
+   email: '',
+   age: ''
 };
 
   constructor(
@@ -32,6 +33,8 @@ GpCreate() {
 this.users.name = '';
 
 this.users.email = '';
+
+this.users.age = '';
 
     },
     error => {
