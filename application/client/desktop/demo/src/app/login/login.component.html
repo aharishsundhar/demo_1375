@@ -2,28 +2,28 @@
 <form class='form'>
 <div  class=' form-group'>
 <label  class=' label'>Name</label>
-<input  class=' input form-control' placeholder='enter the name'/>
+<input  class=' input form-control' placeholder='enter the name' name=input_template-icfw/>
 </div>
 <div  class=' form-group'>
 <label  class=' label'>Email</label>
-<input  class=' input form-control' type='email' placeholder='enter your  email'/>
+<input  class=' input form-control' type='email' placeholder='enter your  email' name=input_template-iljx/>
 </div>
 <div  class=' form-group'>
 <label  class=' label'>Gender</label>
-<input  class=' checkbox' type='checkbox' value='M'/>
+<input  class=' checkbox' type='checkbox' value='M' name=checkbox_template-iwq65/>
 <label  class=' checkbox-label'>M</label>
-<input  class=' checkbox' type='checkbox' value='F'/>
+<input  class=' checkbox' type='checkbox' value='F' name=checkbox_template-isbvy/>
 <label  class=' checkbox-label'>F</label>
 </div>
 <label  class=' label'>
 Age
 </label>
-<input  class=' input form-control' placeholder='Enter age'/>
+<input  class=' input form-control' placeholder='Enter age' name=input_template-ivs8j [(ngModel)]="users.age" [ngModelOptions]="{standalone: true}"/>
 <div  class=' form-group'>
 <label  class=' label'>Message</label>
-<textarea  class=' textarea form-control'></textarea>
+<textarea  class=' textarea form-control' name=textbox_template-i53u5></textarea>
 </div>
 <div  class=' form-group'>
-<button  class=' button btn btn-primary' type='submit'>Create</button>
+<button  class=' button btn btn-primary' type='submit' name=button_template-i6xoi>Create</button>
 </div>
 </form>
