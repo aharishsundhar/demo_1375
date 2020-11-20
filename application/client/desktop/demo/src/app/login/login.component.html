@@ -1,0 +1,25 @@
+<h2>Login</h2>
+<form class='form'>
+<div  class=' form-group'>
+<label  class=' label'>Name</label>
+<input  class=' input form-control' placeholder='enter the name' name=input_template-icfw [(ngModel)]="users.name" [ngModelOptions]="{standalone: true}"/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Email</label>
+<input  class=' input form-control' type='email' placeholder='enter your  email' name=input_template-iljx [(ngModel)]="users.email" [ngModelOptions]="{standalone: true}"/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Gender</label>
+<input  class=' checkbox' type='checkbox' value='M' name=checkbox_template-iwq65/>
+<label  class=' checkbox-label'>M</label>
+<input  class=' checkbox' type='checkbox' value='F' name=checkbox_template-isbvy/>
+<label  class=' checkbox-label'>F</label>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Message</label>
+<textarea  class=' textarea form-control' name=textbox_template-i53u5></textarea>
+</div>
+<div  class=' form-group'>
+<button  class=' button btn btn-primary' type='submit' name=button_template-i6xoi (click)="GpCreate()">Create</button>
+</div>
+</form>
